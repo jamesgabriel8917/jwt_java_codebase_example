@@ -7,7 +7,8 @@ Este projeto é um exemplo de implementação de autenticação utilizando JSON 
 - Java
 - Maven
 - Spring Boot (presumido)
-
+- SwaggerUi
+  
 ## Estrutura do Projeto
 
 O projeto segue a estrutura padrão de aplicações Java com Maven:
@@ -22,6 +23,7 @@ O projeto segue a estrutura padrão de aplicações Java com Maven:
 │ │ │ └── jwtjavacodebaseexample/
 │ │ │ ├── controllers/
 │ │ │ ├── models/
+| | | ├── doc/
 │ │ │ ├── repositories/
 │ │ │ ├── services/
 │ │ │ └── JwtJavaCodebaseExampleApplication.java
@@ -60,5 +62,5 @@ cd jwt_java_codebase_example
 - Autenticação de usuários utilizando JWT
 - Proteção de endpoints com tokens JWT
 - Geração e validação de tokens
-
+- Documentacao com o Swagger
 
